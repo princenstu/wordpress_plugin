@@ -1,7 +1,8 @@
 <?php
-//include('../../../wp-load.php');
-//query("UPDATE ".$wpdb->prefix."bot_counter SET bot_visits = 0");
 
+if ($_GET['bot-counter'] == 'reset'){
+mysql_query("UPDATE ".$wpdb->prefix."bot_counter SET bot_visits = 0");
+}
 ?>
 <div id="message" class="updated fade">
 

@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Bot Counter
-Plugin URI: http://rightbrain.com
+Plugin URI: http://rightbrainsolution.com
 Description: Plugin is counting bots visits
-Author: Greg
+Author: Prince Faisal Ahmed
 Version: 1.0
-Author URI: http://prince@msdn.net.bd
+Author URI: prince@msdn.net.bd
 */
 function bot_install(){
     global $wpdb;
